@@ -7,7 +7,7 @@ main {
   /* margin: 3rem 0; */
 }
 
-/* .teastimonial_list {
+/* .testimonial_list {
   width: 80%;
   margin: auto;
 } */
@@ -17,13 +17,13 @@ main {
 }
 
 /* .testimonial_image-container {
- width: 65%;
- max-width: 580px; */
-/* display: inline-block;
- vertical-align: middle; */
-/* box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.4);
- transform: skew(20deg);
- overflow: hidden;
+  width: 65%;
+  max-width: 580px;
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+  transform: skew(20deg);
+  overflow: hidden;
 } */
 
 .testimonial_image {
