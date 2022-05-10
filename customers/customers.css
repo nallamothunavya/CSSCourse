@@ -36,7 +36,7 @@ main {
 
 .testimonial_info {
   text-align: right;
-  padding: 0.9rem;
+  padding: 2.7rem;
   /* display: inline-block; */
   /* vertical-align: middle;
   width: 30%; */
@@ -44,6 +44,7 @@ main {
 
 #customer-2.testimonial {
   text-align: right;
+  margin: 120px;
 }
 
 #customer-2 .testimonial_info {
