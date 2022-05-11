@@ -121,7 +121,8 @@ body {
     display: inline-block;
     width: 30%;
     margin-left: -40px;
-  } /* vertical-align: top;  */
+    /* vertical-align: top;  */
+  }
 }
 
 .Key-feature_image {
