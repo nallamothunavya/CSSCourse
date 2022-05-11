@@ -219,7 +219,7 @@ body {
 
 @media (min-width: 40rem) {
   #product-overview {
-    height: 40vh;
+    height: 70vh;
     background-position: 50% 25%;
   }
 
