@@ -1,165 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.5
     maximum-scale=2.0, minimum-scale=1.0"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>uHost</title>
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="favicon.png" />
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Anton" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton"
+      rel="stylesheet"
+    />
     <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:400,700" rel="stylesheet"> -->
-    <link rel="stylesheet" href="shared.css">
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
     <div class="backdrop"></div>
     <div class="modal">
-        <h1 class="modal_title">Do you want to continue?</h1>
-        <div class="modal_actions">
-            <a href="start-hosting/index.html" class="modal_action">Yes!</a>
-            <button class="modal_action modal_action--negative" type="button">No!</button>
-        </div>
+      <h1 class="modal_title">Do you want to continue?</h1>
+      <div class="modal_actions">
+        <a href="start-hosting/index.html" class="modal_action">Yes!</a>
+        <button class="modal_action modal_action--negative" type="button">
+          No!
+        </button>
+      </div>
     </div>
     <header class="main-header">
-        <div>
-            <button class="toggle-button">
-                <span class="toggle-button_bar"></span>
-                <span class="toggle-button_bar"></span>
-                <span class="toggle-button_bar"></span>
-            </button>
-            <a href="index.html" class="main-header_brand">
-                <img src="images/uHost.jpg" alt="uHost -Your favorite hosting company">
-            </a>   
-        </div>
-        <nav class="main-nav">
-            <ul class="main-nav_items">
-                <li class="main-nav_item">
-                    <a href="packages/index.html">Packages</a>
-                </li>
-                <li class="main-nav_item">
-                    <a href="customers/index.html">Customers</a>
-                   
-                </li>
-                <li class="main-nav_item main-nav_item--cta">
-                    <a href="start-hosting/index.html">Start Hosting</a>
-                </li>
-            </ul>
-        </nav>
+      <div>
+        <button class="toggle-button">
+          <span class="toggle-button_bar"></span>
+          <span class="toggle-button_bar"></span>
+          <span class="toggle-button_bar"></span>
+        </button>
+        <a href="index.html" class="main-header_brand">
+          <img
+            src="images/uHost.jpg"
+            alt="uHost -Your favorite hosting company"
+          />
+        </a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav_items">
+          <li class="main-nav_item">
+            <a href="packages/index.html">Packages</a>
+          </li>
+          <li class="main-nav_item">
+            <a href="customers/index.html">Customers</a>
+          </li>
+          <li class="main-nav_item main-nav_item--cta">
+            <a href="start-hosting/index.html">Start Hosting</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <nav class="mobile-nav">
-        <ul class="mobile-nav_items">
-            <li class="mobile-nav_item">
-                <a href ="packages/index.html">Packages</a>
-            </li>
-            <li class="mobile-nav_item">
-                <a href ="customers/index.html">Customers</a>
-            </li>
-            <li class="mobile-nav_item">
-                <a href ="start-hosting/index.html">Start Hosting</a>
-            </li>
-
-        </ul>
+      <ul class="mobile-nav_items">
+        <li class="mobile-nav_item">
+          <a href="packages/index.html">Packages</a>
+        </li>
+        <li class="mobile-nav_item">
+          <a href="customers/index.html">Customers</a>
+        </li>
+        <li class="mobile-nav_item">
+          <a href="start-hosting/index.html">Start Hosting</a>
+        </li>
+      </ul>
     </nav>
     <main>
-        <section id="product-overview">
-           <h1>Get the freedom you deserve.</h1>
-        </section>
-        <section id="plans">
-            <h1 class="section-title">Choose Your Plan</h1>
-            <div class="plan_list">
-                <article class="plan">
-                    <h1 class="plan_title">FREE</h1>
-                    <h2 class="plan_price">$0/month</h2>
-                    <h3>For hobby projects or small teams.</h3>
-                    <ul class="plan_features">
-                        <li class="plan_feature">1 Workspace</li>
-                        <li class="plan_feature">Unlimited Trafic</li>
-                        <li class="plan_feature">10GB Storage</li>
-                        <li class="plan_feature">Basic Support</li>
-                    </ul>
-                    <div>
-                        <button class="button">CHOOSE PLAN</button>
-                    </div>
-                </article>
-               <article class="plan plan--highlighted">
-                   <h1 class="plan_annotation">RECOMMENDED</h1>
-                   <h1 class="plan_title">PLUS</h1>
-                   <h2 class="plan_price">$29/month</h2>
-                   <h3>For ambitious projects.</h3>
-                   <ul class="plan_features">
-                       <li class="plan_feature">5 Workspace</li>
-                       <li class="plan_feature">Unlimited Traffic</li>
-                       <li class="plan_feature">100GB Storage</li>
-                       <li class="plan_feature">Plus Support</li>
-                   </ul>
-                   <div>
-                       <button class="button">CHOOSE PLAN</button>
-                   </div>
-               </article> 
-               <article class="plan">
-                   <h1 class="plan_title">PREMIUM</h1>
-                   <h2 class="plan_price">$99/month</h2>
-                   <h3>Your enterprise solution.</h3>
-                     <ul class="plan_features">
-                         <li class="plan_feature">10 Workspace</li>
-                         <li class="plan_feature">Unlimited Traffic</li>
-                         <li class="plan_feature">Unlimited Storage</li>
-                         <li class="plan_feature">Priority Support</li>
-                     </ul>
-                     <div>
-                         <button class="button">CHOOSE PLAN</button>
-                     </div>
-               </article>
-            </div>
-        </section>
-        <section id="Key-features">
-            <h1 class="section-title">Many Good Reasons to Stick Around</h1>
-            <ul class="Key-feature_list">
-                <li class="Key-feature">
-                    <div class="Key-feature_image">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                            <path d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z"/>
-                          </svg>
-                    </div>
-                    <p class="Key-feature_description">3,857,000 Trusting Customers</p>
-                </li>
-                <li class="Key-feature">
-                    <div class="Key-feature_image">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                            <path d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z"/>
-                          </svg>
-                    </div>
-                    <p class="Key-feature_description">99.999% Uptime Guarantee</p>
-                </li>
-                <li class="Key-feature">
-                    <div class="Key-feature_image">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16">
-                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                            <path d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z"/>
-                          </svg>
-                    </div>
-                    <p class="Key-feature_description">Lightning Fast CDN</p>
-                </li>
+      <section id="product-overview">
+        <h1>Get the freedom you deserve.</h1>
+      </section>
+      <section id="plans">
+        <h1 class="section-title">Choose Your Plan</h1>
+        <div class="plan_list">
+          <article class="plan">
+            <h1 class="plan_title">FREE</h1>
+            <h2 class="plan_price">$0/month</h2>
+            <h3>For hobby projects or small teams.</h3>
+            <ul class="plan_features">
+              <li class="plan_feature">1 Workspace</li>
+              <li class="plan_feature">Unlimited Trafic</li>
+              <li class="plan_feature">10GB Storage</li>
+              <li class="plan_feature">Basic Support</li>
             </ul>
-        </section>
+            <div>
+              <button class="button">CHOOSE PLAN</button>
+            </div>
+          </article>
+          <article class="plan plan--highlighted">
+            <h1 class="plan_annotation">RECOMMENDED</h1>
+            <h1 class="plan_title">PLUS</h1>
+            <h2 class="plan_price">$29/month</h2>
+            <h3>For ambitious projects.</h3>
+            <ul class="plan_features">
+              <li class="plan_feature">5 Workspace</li>
+              <li class="plan_feature">Unlimited Traffic</li>
+              <li class="plan_feature">100GB Storage</li>
+              <li class="plan_feature">Plus Support</li>
+            </ul>
+            <div>
+              <button class="button">CHOOSE PLAN</button>
+            </div>
+          </article>
+          <article class="plan">
+            <h1 class="plan_title">PREMIUM</h1>
+            <h2 class="plan_price">$99/month</h2>
+            <h3>Your enterprise solution.</h3>
+            <ul class="plan_features">
+              <li class="plan_feature">10 Workspace</li>
+              <li class="plan_feature">Unlimited Traffic</li>
+              <li class="plan_feature">Unlimited Storage</li>
+              <li class="plan_feature">Priority Support</li>
+            </ul>
+            <div>
+              <button class="button">CHOOSE PLAN</button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="Key-features">
+        <h1 class="section-title">Many Good Reasons to Stick Around</h1>
+        <ul class="Key-feature_list">
+          <li class="Key-feature">
+            <div class="Key-feature_image">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-emoji-heart-eyes"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                />
+                <path
+                  d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z"
+                />
+              </svg>
+            </div>
+            <p class="Key-feature_description">3,857,000 Trusting Customers</p>
+          </li>
+          <li class="Key-feature">
+            <div class="Key-feature_image">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-emoji-heart-eyes"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                />
+                <path
+                  d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z"
+                />
+              </svg>
+            </div>
+            <p class="Key-feature_description">99.999% Uptime Guarantee</p>
+          </li>
+          <li class="Key-feature">
+            <div class="Key-feature_image">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-emoji-heart-eyes"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                />
+                <path
+                  d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z"
+                />
+              </svg>
+            </div>
+            <p class="Key-feature_description">Lightning Fast CDN</p>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer class="main-footer">
-        <nav>
-            <ul class="main-footer_links">
-                <li class="main-footer_link">
-                    <a href="#">Support</a>
-                </li>
-                <li class="main-footer_link">
-                    <a href="#">Terms of Use</a>
-                </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="main-footer_links">
+          <li class="main-footer_link">
+            <a href="#">Support</a>
+          </li>
+          <li class="main-footer_link">
+            <a href="#">Terms of Use</a>
+          </li>
+        </ul>
+      </nav>
     </footer>
     <script src="shared.js"></script>
-</body>
+  </body>
 </html>
