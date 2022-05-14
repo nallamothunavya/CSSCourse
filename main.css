@@ -172,7 +172,7 @@ body {
   opacity: 0;
   transform: translateY(-3rem);
   transition: opacity 200ms ease-out, transform 500ms ease-out;
-  z-index: 200;
+  z-index: 100;
   top: 20%;
   left: 30%;
   width: 40%;
